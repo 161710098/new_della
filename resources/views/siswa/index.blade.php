@@ -23,7 +23,7 @@
 					  <th>NIS</th>
 					  <th>nama</th>
 					  <th>Jenis Kelamin</th>
-                      <th>Id Kelas</th>
+                      <th>Kelas</th>
 					  <th colspan="3">Action</th>
 			  		</tr>
 				  	</thead>
@@ -35,6 +35,7 @@
 				    	<td>{{ $no++ }}</td>
 				    	<td>{{ $data->nis }}</td>
 				    	<td>{{ $data->nama }}</td>
+						<td>{{ $data->jenis_kelamin }}</td>
 				    	<td>{{ $data->id_kelas }}</td>
 				    	
 <td>

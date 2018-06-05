@@ -42,7 +42,7 @@
                         @endif
 			  		</div>
                       <div class="form-group {{ $errors->has('id_kelas') ? ' has-error' : '' }}">
-			  			<label class="control-label">id_kelas</label>	
+			  			<label class="control-label">kelas</label>	
 			  			<input type="text" name="id_kelas" value="{{ $siswa->id_kelas }}" class="form-control"  required>
 			  			@if ($errors->has('id_kelas'))
                             <span class="help-block">
